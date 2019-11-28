@@ -1,46 +1,64 @@
 ---
 layout: post
-title: Hello World - Vno
-date: 2016-02-16 15:32:24.000000000 +09:00
+title: 自定义 图标设计规范
+date: 2019-11-20 15:32:24.000000000 +09:00
 ---
 
-#### What's this
+#### 定义
 
-[Vno Jekyll](https://github.com/onevcat/vno-jekyll) is a theme for [Jekyll](http://jekyllrb.com). It is a port of my Ghost theme [vno](https://github.com/onevcat/vno), which is originally developed from [Dale Anthony's Uno](https://github.com/daleanthony/uno).
+系统图标是用于传达寓意、对象或动作的视觉符号。用户可以一目了然的传递信息，通过交互性图标吸引人们对重要信息的注意。
 
-#### Usage
+#### 灵魂三问
 
 ```bash
-$ git clone https://github.com/onevcat/vno-jekyll.git your_site
-$ cd your_site
-$ bundler install
-$ bundler exec jekyll serve
+$ 你是否面临过，一个系统的交互图标是否不成体系；
+$ 你是否面临过，领导在你旁边说你的图标不规范；
+$ 你是否面临过，一天只画出一个图标；
 ```
 
-Your site with `Vno Jekyll` enabled should be accessible in http://127.0.0.1:4000.
+请看！如何自定义图标（设计规范）掌握六大技巧，让设计有腔调！
 
-For more information about Jekyll, please visit [Jekyll's site](http://jekyllrb.com).
 
-#### Configuration
+#### 目录
 
-All configuration could be done in `_config.yml`. Remember you need to restart to serve the page when after changing the config file. Everything in the config file should be self-explanatory.
+01  |  基础
 
-#### Background image and avatar
+02  |  样式
 
-You could replace the background and avatar image in `assets/images` folder to change them.
+03  |  粗细
 
-#### Sites using Vno
+04  |  透视
 
-[My blog](http://onevcat.com) is using `Vno Jekyll` as well, you could see how it works in real. There are some other sites using the same theme. You can find them below:
+05  |  圆角
 
-| Site Name    | URL                                                |
-| ------------ | ---------------------------------------------------|
-| OneV's Den   | [http://onevcat.com](http://onevcat.com)           |
-| July Tang    | [http://blog.julytang.xyz](http://onevcat.com)     |
-| Harry Lee    | [http://qiuqi.li](http://qiuqi.li)                 |
+06  |  角度
 
-> If you happen to be using this theme, welcome to [send me a pull request](https://github.com/onevcat/vno-jekyll/pulls) to add your site link here. :)
+#### 01  |  基础
 
-#### License
+正方形网格是所有IBM图标的基础结构，并用作确定整个图标集的线宽、比例、形状和定位的基础。网格有助于指导设计决策，确保图标的统一性，但更重要的是允许灵活地创建适当的图形，以传达正确的寓意。
 
-Great thanks to [Dale Anthony](https://github.com/daleanthony) and his [Uno](https://github.com/daleanthony/uno). Vno Jekyll is based on Uno, and contains a lot of modification on page layout, animation, font and some more things I can not remember. Vno Jekyll is followed with Uno and be licensed as [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/). See the link for more information.
+#### 02  |  样式
+
+IBM图标的风格与我们的字体IBM Plex形成了有意义的结合。每个图标都是有意设计的，通过字体中发现的独特细节和特点来和谐配对。下图演示了图标和字母之间的一些关系，使它们能够在视觉上很好地融为一体。
+
+https://img.ui.cn/data/file/6/0/3/2763306.gif
+
+#### 03  |  粗细
+
+一个图标看起来不应该比其他相同大小的图标更重或更轻。通过对所有图标使用2px粗细来保持视觉平衡。当然也有例外，当图标很复杂或线条很密集时（见下文）。
+
+#### 04  |  透视
+
+IBM图标是设计好的，可以随时使用，但是你想创建一个新图标到图标库里，请确保的图标透视一致，可以选择正面或侧面。
+
+#### 05  |  圆角
+
+对于圆角图标可以使用2px的统一半径，必要时可以以2px的倍数比如4px、6px来定义图标圆角。也可使用其他圆角半径来绘制图标。
+
+#### 06  |  角度
+
+尽可能使用45°角进行抗锯齿，或者使用15°倍数的角度来绘制你的图标角度。也可以通过使角度始终保持相同的增量来保持图标的统一。
+
+#### 总结
+
+IBM的图标设计规范从基本网格、样式、粗细、圆角、角度全方位的去定义图标的绘制方法，让我们以一种更科学更合理的去绘制图标。非常值得推荐和学习。
